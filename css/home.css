@@ -1,0 +1,384 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.head{
+    font-size: 4rem;
+    color: darkred;
+    margin-left: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 3px wheat;
+}
+.header{
+    height: 9vw;
+}
+.nav-link{
+    font-size: 1.5rem;
+    margin-left: 3vw;
+}
+.navbar{
+    width: 100%;
+    height: 9vw;
+}
+.navbar-nav{
+    
+    z-index: -1;
+}
+
+.w-100{
+    height: 52vw;
+}
+.pop{
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 4px 3px powderblue;
+    font-weight: bold;
+}
+.img{
+    width: 74vw;
+    height: 50vw;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    color: darkred;
+}
+.click{
+    font-size: 2rem;
+    text-align: center;
+}
+.click1{
+    margin-left: 4vw;
+    border-radius: 6px;
+    padding-left: 10vw;
+}
+.click2{
+    background-color: khaki;
+    padding: 0px 19px 1px 19px;
+    border-radius: 1vw;
+    margin-left: -10vw;
+}
+.now1{
+
+    width: 100%;
+    height: 34vw;
+    margin-top: 2px;
+    
+}
+#les{
+    width:18vw ;
+    height: 20vw;
+    border-radius: 1vw;
+    box-shadow: #a98181 4px 3px 2px 3px;
+    background-color: white;
+    margin: 1vw;
+    margin-top: 9vw;
+}
+.les{ 
+   margin-top: 4vw;
+   display: flex; 
+}
+.cake{
+    width: 17vw;
+    height: 12vw;
+    border-radius: 1vw;
+    margin: 0.4vw;
+   
+}
+.footer{
+    background-color:red;
+    height: 200vw;
+    margin-top: 10vw;
+}
+.foot{
+    margin-top: 4vw;
+}
+.footer1{
+    margin-left: 11vw;
+    color: white;
+}
+.footer2{
+    margin-left: 11vw;
+    color: white;
+   
+}
+.footer3{
+    margin-left: 11vw;
+    color: white;
+    
+}
+.footer4{
+    margin-left: 11vw;
+    color: white;
+    
+}
+/* ==================================header======================= */
+.home{
+    margin-top: 22vw;
+    margin-left: 3vw;
+    font-size: 2rem;
+}
+
+
+
+
+/* ====================media============================ */
+
+
+
+/* ============================galaxy s5======================== */
+@media only screen and (min-width:350px) and (max-width:360px){
+    .head{
+        font-size: 2rem;
+        color: darkred;
+        margin-left: 16vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 2px 3px wheat;
+    }
+    .header{
+        height: 19vw;
+    }
+    .navbar{
+        width: 100%;
+        height: 19vw;
+        
+    }
+    .navbar-nav{
+        background-color: lemonchiffon;
+        z-index: -1;
+    }
+    .nav-link{
+        margin-left: 0;
+        border-bottom: 1px solid brown;
+        text-align: center;
+        margin-top: 3vw;
+        font-size: 1.3rem;
+    }
+    .w-100{
+        height: 52vw;
+    }
+    .pop{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .img{
+        width: 74vw;
+        height: 50vw;
+    }
+    a{
+        text-decoration: none;
+        text-align: center;
+        color: darkred;
+    }
+    .click{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .click1{
+        margin-left: 26vw;
+        border-radius: 6px;
+        padding-left: 33vw;
+    }
+    .click2{
+        background-color: khaki;
+        padding: 0px 19px 1px 19px;
+        border-radius: 1vw;
+        margin-left: -33vw;
+    }
+    .now1{
+
+        width: 100%;
+        height: 34vw;
+        margin-top: 2px;
+        
+    }
+    #les{
+        width:85vw ;
+        height: 80vw;
+        border-radius: 1vw;
+        box-shadow: #a98181 4px 3px 2px 3px;
+        background-color: white;
+        margin: 1vw;
+        margin-top: 9vw;
+    }
+    .les{
+        display: block;
+       margin-left: 6.5vw; 
+       margin-top: 11vw;
+        
+    }
+    .cake{
+        width: 84vw;
+        height: 51vw;
+        border-radius: 1vw;
+        margin: 0.4vw;
+       
+    }
+    .footer{
+        background-color:rgb(179, 44, 44);
+        height: 200vw;
+        margin-top: 10vw;
+    }
+    .foot{
+        margin-top: 4vw;
+    }
+    .footer1{
+        margin-left: 11vw;
+        position: absolute;
+        margin-top: 10vw;
+    }
+    .footer2{
+        margin-left: 11vw;
+       position: absolute;
+       margin-top: 53vw;
+    }
+    .footer3{
+        margin-left: 11vw;
+        position: absolute;
+        margin-top: 100vw;
+        
+    }
+    .footer4{
+        margin-left: 11vw;
+        position: absolute;
+        margin-top: 140vw;
+        
+    }
+    .footer5{
+        margin-left: 11vw;
+        position: absolute;
+        margin-top: 170vw;
+        color: white;
+        
+    }
+    #footer51{
+        margin-top: -7vw;
+        margin-left: 5vw;
+    }
+    .footer6{
+        margin-left: 11vw;
+        position: absolute;
+        margin-top: 180vw;
+        color: white;
+        
+    }
+    #footer61{
+        margin-top: -7vw;
+        margin-left: 5vw;
+    }
+    
+
+}
+
+/* =======================pixel 2================================= */
+
+@media only screen and (min-width:410px) and (max-width:415px){
+    .head{
+        font-size: 2rem;
+        color: darkred;
+        margin-left: 16vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 2px 3px wheat;
+    }
+    .header{
+        height: 19vw;
+    }
+    .navbar{
+        width: 100%;
+        height: 19vw;
+        position: fixed;
+    }
+    .navbar-nav{
+        background-color: lemonchiffon;
+        z-index: -1;
+    }
+    .nav-link{
+        margin-left: 0;
+        border-bottom: 1px solid brown;
+        text-align: center;
+        margin-top: 3vw;
+        font-size: 1.3rem;
+    }
+    .w-100{
+        height: 52vw;
+    }
+    .pop{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .img{
+        width: 74vw;
+        height: 50vw;
+    }
+    a{
+        text-decoration: none;
+        text-align: center;
+        color: darkred;
+    }
+    .click{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .click1{
+        margin-left: 26vw;
+        border-radius: 6px;
+        padding-left: 33vw;
+    }
+    .click2{
+        background-color: khaki;
+        padding: 0px 28px 1px 28px;
+        border-radius: 1vw;
+        margin-left: -33vw;
+    }
+    .now1{
+
+        width: 100%;
+        height: 34vw;
+        margin-top: 2px;
+        
+    }
+    #les{
+        width:85vw ;
+        height: 80vw;
+        border-radius: 1vw;
+        box-shadow: #a98181 4px 3px 2px 3px;
+        background-color: white;
+        margin: 1vw;
+        margin-top: 9vw;
+    }
+    .les{
+       margin-left: 6.5vw; 
+       margin-top: 4vw;
+        
+    }
+    .cake{
+        width: 84vw;
+        height: 51vw;
+        border-radius: 1vw;
+        margin: 0.4vw;
+       
+    }
+    .footer{
+        background-color:red;
+        height: 200vw;
+        margin-top: 10vw;
+    }
+    .foot{
+        margin-top: 4vw;
+    }
+    .footer1{
+        margin-left: 11vw;
+    }
+    .footer2{
+        margin-left: 11vw;
+       
+    }
+    .footer3{
+        margin-left: 11vw;
+        
+    }
+    .footer4{
+        margin-left: 11vw;
+        
+    }
+}
