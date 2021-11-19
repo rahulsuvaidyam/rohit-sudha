@@ -448,6 +448,7 @@ a{
     .pop{
         font-size: 2rem;
         text-align: center;
+        margin-top: 12vw;
     }
     .img{
         width: 74vw;
