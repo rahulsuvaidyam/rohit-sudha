@@ -10,7 +10,7 @@
     text-shadow: 2px 3px wheat;
 }
 .header{
-    height: 9vw;
+    height: 7vw;
 }
 .nav-link{
     font-size: 1.5rem;
@@ -18,11 +18,7 @@
 }
 .navbar{
     width: 100%;
-    height: 9vw;
-}
-.navbar-nav{
-    
-    z-index: -1;
+    height: 7vw;
 }
 
 .w-100{
@@ -33,6 +29,10 @@
     text-align: center;
     text-shadow: 2px 4px 3px powderblue;
     font-weight: bold;
+    position: absolute;
+    margin-left: 30vw;
+    margin-top: -5vw;
+
 }
 .img{
     width: 74vw;
@@ -43,12 +43,17 @@ a{
     text-align: center;
     color: darkred;
 }
+.slidermrp{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: -1vw;
+}
 .click{
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 .click1{
-    margin-left: 4vw;
+    margin-left: 3vw;
     border-radius: 6px;
     padding-left: 10vw;
 }
@@ -65,21 +70,42 @@ a{
     margin-top: 2px;
     
 }
-#les{
-    width:18vw ;
-    height: 20vw;
-    border-radius: 1vw;
-    box-shadow: #a98181 4px 3px 2px 3px;
-    background-color: white;
-    margin: 1vw;
-    margin-top: 9vw;
+.carda{
+    margin-top: 8vw;
+    display: flex;
+    margin-left: 13.7vw;
 }
-.les{ 
-   margin-top: 4vw;
-   display: flex; 
+.carda1{
+    margin-top: 1vw;
+    display: flex;
+    margin-left: 13.7vw;
+}
+
+.les{
+    display: flex;
+    
+}
+   
+.les{
+    display: flex;
+
+    
+}
+#les{
+    width: 16vw;
+    height: 20vw;
+    border: 1px solid seashell;
+    border-radius: 1vw;
+    box-shadow: rgb(168, 121, 121) 3px 3px 3px 3px;
+    margin: 1vw;
+}
+
+#les:hover{
+    
+    border: 3px solid rgb(179, 74, 74);
 }
 .cake{
-    width: 17vw;
+    width: 15vw;
     height: 12vw;
     border-radius: 1vw;
     margin: 0.4vw;
@@ -87,7 +113,7 @@ a{
 }
 .footer{
     background-color:red;
-    height: 200vw;
+    height: 30vw;
     margin-top: 10vw;
 }
 .foot{
@@ -95,20 +121,42 @@ a{
 }
 .footer1{
     margin-left: 11vw;
+    position: absolute;
     color: white;
+    margin-top: 4vw;
 }
 .footer2{
-    margin-left: 11vw;
+    margin-left: 25vw;
+    position: absolute;
+    margin-top: 4vw;
     color: white;
    
 }
 .footer3{
-    margin-left: 11vw;
+    margin-left: 50vw;
+    position: absolute;
+    margin-top: 4vw;
     color: white;
     
 }
 .footer4{
-    margin-left: 11vw;
+    margin-left: 71vw;
+    position: absolute;
+    margin-top: 4vw;
+    color: white;
+    
+}
+.footer5{
+    margin-left: 71vw;
+    position: absolute;
+    margin-top: 12vw;
+    color: white;
+    
+}
+.footer6{
+    margin-left: 71vw;
+    position: absolute;
+    margin-top: 16vw;
     color: white;
     
 }
@@ -126,8 +174,8 @@ a{
 
 
 
-/* ============================galaxy s5======================== */
-@media only screen and (min-width:321px) and (max-width:364px){
+/* ============================monile view======================== */
+@media (max-width:766px){
     .head{
         font-size: 2rem;
         color: darkred;
@@ -158,7 +206,8 @@ a{
         height: 52vw;
     }
     .pop{
-        font-size: 2rem;
+        margin-top: -16vw;
+        font-size: 1.5rem;
         text-align: center;
     }
     .img{
@@ -168,22 +217,31 @@ a{
     a{
         text-decoration: none;
         text-align: center;
-        color: darkred;
+        color: black;
     }
     .click{
-        font-size: 2rem;
+        font-size: 1rem;
         text-align: center;
     }
     .click1{
-        margin-left: 26vw;
+        margin-left: 4.5vw;
         border-radius: 6px;
-        padding-left: 33vw;
+        padding-left: 29vw;
+        position: absolute;
+        margin-top: -3vw;
+    }
+    .slidermrp{
+        margin-top: -5vw;
+        color: rgb(36, 24, 24);
+        font-size: 1rem;
+
     }
     .click2{
-        background-color: khaki;
+        background-color:rgb(148, 130, 130);
         padding: 0px 19px 1px 19px;
         border-radius: 1vw;
-        margin-left: -33vw;
+        margin-left: -29vw;
+        font-weight: bold;
     }
     .now1{
 
@@ -192,24 +250,28 @@ a{
         margin-top: 2px;
         
     }
+    .carda{
+        display: block;
+        margin-left: 0vw;
+        margin-top: 20VW;
+    }
+    .carda1{
+        display: block;
+        margin-left: 0vw;
+    }
     #les{
-        width:85vw ;
-        height: 80vw;
-        border-radius: 1vw;
-        box-shadow: #a98181 4px 3px 2px 3px;
-        background-color: white;
-        margin: 1vw;
-        margin-top: 9vw;
+        border: 1px solid rgb(53, 32, 32);
+        width: 43vw;
+        height: 48vw;
+        margin-left: 3.5vw;
     }
     .les{
-        display: block;
-       margin-left: 6.5vw; 
-       margin-top: 11vw;
-        
+        margin-left: 1vw;
+        margin-top: 3vw;
     }
     .cake{
-        width: 84vw;
-        height: 51vw;
+        width: 41vw;
+        height: 25vw;
         border-radius: 1vw;
         margin: 0.4vw;
        
@@ -273,92 +335,7 @@ a{
 /* =======================pixel 2================================= */
 
 @media only screen and (min-width:400px) and (max-width:412px){
-    .head{
-        font-size: 2rem;
-        color: darkred;
-        margin-left: 16vw;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-shadow: 2px 3px wheat;
-    }
-    .header{
-        height: 19vw;
-    }
-    .navbar{
-        width: 100%;
-        height: 19vw;
-        position: fixed;
-    }
-    .navbar-nav{
-        background-color: lemonchiffon;
-        z-index: -1;
-    }
-    .nav-link{
-        margin-left: 0;
-        border-bottom: 1px solid brown;
-        text-align: center;
-        margin-top: 3vw;
-        font-size: 1.3rem;
-    }
-    .w-100{
-        height: 52vw;
-    }
-    .pop{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .img{
-        width: 74vw;
-        height: 50vw;
-    }
-    a{
-        text-decoration: none;
-        text-align: center;
-        color: darkred;
-    }
-    .click{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .click1{
-        margin-left: 26vw;
-        border-radius: 6px;
-        padding-left: 33vw;
-    }
-    .click2{
-        background-color: khaki;
-        padding: 0px 28px 1px 28px;
-        border-radius: 1vw;
-        margin-left: -33vw;
-    }
-    .now1{
-
-        width: 100%;
-        height: 34vw;
-        margin-top: 2px;
-        
-    }
-    #les{
-        width:85vw ;
-        height: 80vw;
-        border-radius: 1vw;
-        box-shadow: #a98181 4px 3px 2px 3px;
-        background-color: white;
-        margin: 1vw;
-        margin-top: 9vw;
-    }
-    .les{
-       margin-left: 6.5vw; 
-       margin-top: 4vw;
-       display: block;
-        
-    }
-    .cake{
-        width: 84vw;
-        height: 51vw;
-        border-radius: 1vw;
-        margin: 0.4vw;
-       
-    }
+   
     .footer{
         background-color:rgb(160, 52, 52);
         height: 200vw;
@@ -416,429 +393,15 @@ a{
 /* =======================iphone 5 /se================================= */
 
 @media only screen and (min-width:280px) and (max-width:320px){
-    .head{
-        font-size: 2rem;
-        color: darkred;
-        margin-left: 8vw;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-shadow: 2px 3px wheat;
-    }
-    .header{
-        height: 19vw;
-    }
-    .navbar{
-        width: 100%;
-        height: 21vw;
-        position: fixed;
-    }
-    .navbar-nav{
-        background-color: lemonchiffon;
-        z-index: -1;
-    }
-    .nav-link{
-        margin-left: 0;
-        border-bottom: 1px solid brown;
-        text-align: center;
-        margin-top: 3vw;
-        font-size: 1.3rem;
-    }
-    .w-100{
-        height: 52vw;
-    }
-    .pop{
-        font-size: 2rem;
-        text-align: center;
-        margin-top: 12vw;
-    }
-    .img{
-        width: 74vw;
-        height: 50vw;
-    }
-    a{
-        text-decoration: none;
-        text-align: center;
-        color: darkred;
-    }
-    .click{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .click1{
-        margin-left: 22vw;
-        border-radius: 6px;
-        padding-left: 33vw;
-    }
-    .click2{
-        background-color: khaki;
-        padding: 0px 28px 1px 28px;
-        border-radius: 1vw;
-        margin-left: -33vw;
-    }
-    .now1{
-
-        width: 100%;
-        height: 34vw;
-        margin-top: 2px;
-        
-    }
-    #les{
-        width:85vw ;
-        height: 82vw;
-        border-radius: 1vw;
-        box-shadow: #a98181 4px 3px 2px 3px;
-        background-color: white;
-        margin: 1vw;
-        margin-top: 9vw;
-    }
-    .les{
-       margin-left: 6.5vw; 
-       margin-top: 4vw;
-       display: block;
-        
-    }
-    .cake{
-        width: 84vw;
-        height: 51vw;
-        border-radius: 1vw;
-        margin: 0.4vw;
-       
-    }
-    .footer{
-        background-color:rgb(160, 52, 52);
-        height: 230vw;
-        margin-top: 10vw;
-    }
-    .foot{
-        margin-top: 4vw;
-    }
-    .footer1{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 10vw;
-    }
-    .footer2{
-        position: absolute;
-        margin-left: 11vw;
-       margin-top: 58vw;
-    }
-    .footer3{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 113vw;
-        
-    }
-    .footer4{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 161vw;
-        
-    }
-    .footer5{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 190vw;
-        color: white;
-        
-    }
-    #footer51{
-        margin-top: -7vw;
-        margin-left: 5vw;
-    }
-    .footer6{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 200vw;
-        color: white;
-        
-    }
-    #footer61{
-        margin-top: -7vw;
-        margin-left: 5vw;
-    }
 }
-
 /* =======================iphone 6/7/8 ================================= */
 
 @media only screen and (min-width:365px) and (max-width:399px){
-    .head{
-        font-size: 2rem;
-        color: darkred;
-        margin-left: 16vw;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-shadow: 2px 3px wheat;
-    }
-    .header{
-        height: 19vw;
-    }
-    .navbar{
-        width: 100%;
-        height: 19vw;
-        position: fixed;
-    }
-    .navbar-nav{
-        background-color: lemonchiffon;
-        z-index: -1;
-    }
-    .nav-link{
-        margin-left: 0;
-        border-bottom: 1px solid brown;
-        text-align: center;
-        margin-top: 3vw;
-        font-size: 1.3rem;
-    }
-    .w-100{
-        height: 52vw;
-    }
-    .pop{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .img{
-        width: 74vw;
-        height: 50vw;
-    }
-    a{
-        text-decoration: none;
-        text-align: center;
-        color: darkred;
-    }
-    .click{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .click1{
-        margin-left: 26vw;
-        border-radius: 6px;
-        padding-left: 33vw;
-    }
-    .click2{
-        background-color: khaki;
-        padding: 0px 28px 1px 28px;
-        border-radius: 1vw;
-        margin-left: -33vw;
-    }
-    .now1{
-
-        width: 100%;
-        height: 34vw;
-        margin-top: 2px;
-        
-    }
-    #les{
-        width:85vw ;
-        height: 80vw;
-        border-radius: 1vw;
-        box-shadow: #a98181 4px 3px 2px 3px;
-        background-color: white;
-        margin: 1vw;
-        margin-top: 9vw;
-    }
-    .les{
-       margin-left: 6.5vw; 
-       margin-top: 4vw;
-       display: block;
-        
-    }
-    .cake{
-        width: 84vw;
-        height: 51vw;
-        border-radius: 1vw;
-        margin: 0.4vw;
-       
-    }
-    .footer{
-        background-color:rgb(160, 52, 52);
-        height: 200vw;
-        margin-top: 10vw;
-    }
-    .foot{
-        margin-top: 4vw;
-    }
-    .footer1{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 10vw;
-    }
-    .footer2{
-        position: absolute;
-        margin-left: 11vw;
-       margin-top: 53vw;
-    }
-    .footer3{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 100vw;
-        
-    }
-    .footer4{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 140vw;
-        
-    }
-    .footer5{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 170vw;
-        color: white;
-        
-    }
-    #footer51{
-        margin-top: -6vw;
-        margin-left: 5vw;
-    }
-    .footer6{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 180vw;
-        color: white;
-        
-    }
-    #footer61{
-        margin-top: -6vw;
-        margin-left: 5vw;
-    }
+    
 }
 
 /* =======================iphone 6/7/8 pius================================= */
 
 @media only screen and (min-width:412px) and (max-width:415px){
-    .head{
-        font-size: 2rem;
-        color: darkred;
-        margin-left: 16vw;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-shadow: 2px 3px wheat;
-    }
-    .header{
-        height: 19vw;
-    }
-    .navbar{
-        width: 100%;
-        height: 19vw;
-        position: fixed;
-    }
-    .navbar-nav{
-        background-color: lemonchiffon;
-        z-index: -1;
-    }
-    .nav-link{
-        margin-left: 0;
-        border-bottom: 1px solid brown;
-        text-align: center;
-        margin-top: 3vw;
-        font-size: 1.3rem;
-    }
-    .w-100{
-        height: 52vw;
-    }
-    .pop{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .img{
-        width: 74vw;
-        height: 50vw;
-    }
-    a{
-        text-decoration: none;
-        text-align: center;
-        color: darkred;
-    }
-    .click{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .click1{
-        margin-left: 26vw;
-        border-radius: 6px;
-        padding-left: 33vw;
-    }
-    .click2{
-        background-color: khaki;
-        padding: 0px 28px 1px 28px;
-        border-radius: 1vw;
-        margin-left: -33vw;
-    }
-    .now1{
-
-        width: 100%;
-        height: 34vw;
-        margin-top: 2px;
-        
-    }
-    #les{
-        width:85vw ;
-        height: 80vw;
-        border-radius: 1vw;
-        box-shadow: #a98181 4px 3px 2px 3px;
-        background-color: white;
-        margin: 1vw;
-        margin-top: 9vw;
-    }
-    .les{
-       margin-left: 6.5vw; 
-       margin-top: 4vw;
-       display: block;
-        
-    }
-    .cake{
-        width: 84vw;
-        height: 51vw;
-        border-radius: 1vw;
-        margin: 0.4vw;
-       
-    }
-    .footer{
-        background-color:rgb(160, 52, 52);
-        height: 200vw;
-        margin-top: 10vw;
-    }
-    .foot{
-        margin-top: 4vw;
-    }
-    .footer1{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 10vw;
-    }
-    .footer2{
-        position: absolute;
-        margin-left: 11vw;
-       margin-top: 53vw;
-    }
-    .footer3{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 100vw;
-        
-    }
-    .footer4{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 140vw;
-        
-    }
-    .footer5{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 170vw;
-        color: white;
-        
-    }
-    #footer51{
-        margin-top: -6vw;
-        margin-left: 5vw;
-    }
-    .footer6{
-        position: absolute;
-        margin-left: 11vw;
-        margin-top: 180vw;
-        color: white;
-        
-    }
-    #footer61{
-        margin-top: -6vw;
-        margin-left: 5vw;
-    }
+    
 }
