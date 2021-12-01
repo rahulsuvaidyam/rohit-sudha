@@ -160,6 +160,14 @@ a{
     color: white;
     
 }
+/* contact */
+#ab-les{
+    display: none;
+}
+#ab-les:hover{
+    
+    border: 4px solid rgb(179, 74, 74);
+}
 /* ==================================header======================= */
 .home{
     margin-top: 22vw;
@@ -276,6 +284,30 @@ a{
         border-radius: 1vw;
         margin: 0.4vw;
        
+    }
+    /* about */
+    .ab-les{
+        margin-top: 16vw;
+    }
+    #ab-les{
+        display: block;
+        border-radius: 1vw;
+        border: 4px solid rgb(189, 166, 166);
+        width: 62vw;
+        height: 56vw;
+        margin-left: 18.5vw;
+    }
+    .ab-name{
+        border-radius: 1vw;
+        border: 1px solid black;
+        width: 62vw;
+        height: 76vw;
+        margin-left: 18.5vw;
+        margin-top: -56vw;
+    }
+    #ab-img{
+        width: 60vw;
+        height: 54vw;
     }
     .footer{
         background-color:rgb(179, 44, 44);
