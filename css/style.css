@@ -51,6 +51,10 @@ a{
 .click{
     font-size: 1.5rem;
     text-align: center;
+    background-color: antiquewhite;
+}
+.box-botton{
+    padding-bottom: 1.5rem;
 }
 .click1{
     margin-left: 3vw;
@@ -80,32 +84,22 @@ a{
     display: flex;
     margin-left: 13.7vw;
 }
-
-.les{
-    display: flex;
-    
-}
    
 .les{
     display: flex;
-
+    margin-left: -11%;
     
 }
 #les{
-    width: 16vw;
-    height: 20vw;
+    width: 37%;
+    height: auto;
     border: 1px solid seashell;
     border-radius: 1vw;
     box-shadow: rgb(168, 121, 121) 3px 3px 3px 3px;
     margin: 1vw;
 }
-
-#les:hover{
-    
-    border: 3px solid rgb(179, 74, 74);
-}
 .cake{
-    width: 15vw;
+    width: 95%;
     height: 12vw;
     border-radius: 1vw;
     margin: 0.4vw;
@@ -231,6 +225,8 @@ a{
     .click{
         font-size: 1rem;
         text-align: center;
+        font-weight: bold;
+        background-color: antiquewhite;
     }
     .click1{
         margin-left: 4.5vw;
@@ -240,7 +236,7 @@ a{
         margin-top: -3vw;
     }
     .slidermrp{
-        margin-top: -5vw;
+        margin-top: 5vw;
         color: rgb(36, 24, 24);
         font-size: 1rem;
 
@@ -270,8 +266,8 @@ a{
     }
     #les{
         border: 1px solid rgb(53, 32, 32);
-        width: 43vw;
-        height: 48vw;
+        width: 43%;
+        height: auto;
         margin-left: 3.5vw;
     }
     .les{
@@ -284,6 +280,10 @@ a{
         border-radius: 1vw;
         margin: 0.4vw;
        
+    }
+    .cake:hover{
+        width: 41.5vw;
+        height: 25.2vw;
     }
     /* about */
     .ab-les{
@@ -365,6 +365,7 @@ a{
 
 }
 
+
 /* =======================pixel 2================================= */
 
 @media only screen and (min-width:400px) and (max-width:412px){
@@ -434,7 +435,21 @@ a{
 }
 
 /* =======================iphone 6/7/8 pius================================= */
-
-@media only screen and (min-width:412px) and (max-width:415px){
+@media  (max-width:330px){
+    .les{
+        display: block;
+    }
+    #les{
+        width: 90%;
+        margin-top: 1.3rem;
+    }
+    .cake{
+        width: 99%;
+        height: auto;
+    }
+    .box-botton{
+        margin-left: 22%;
+        padding-bottom: 1.4rem;
+    }
     
 }
