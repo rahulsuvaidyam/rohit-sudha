@@ -1,247 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <title>rohir sudha</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="./css/style.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROHIT SWEETS & CAKE HOUSE</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
-
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <p class="head">Cake Stock</p>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+    <div class="nav-header">
+        <p class="copyright">@Copyright 2022 
+            <span><i class="fa fa-facebook nav-up-icon"></i> <i class="fa fa-instagram nav-up-icon"></i> <i class="fa fa-twitter nav-up-icon"></i></span></p>
+    </div>
+    <!-- ===============navbar================ -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger sticky-top">
+        <div class="container-fluid">
+          <img class="nav-img" src="./img/logo-1.png" alt="">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
+              <li class="nav-item ms-3"><a class="nav-link active" aria-current="page" href="#">HOME</a></li>
+                <li class="nav-item ms-3"><a class="nav-link active" aria-current="page" href="#">SWEETS</a></li>
+                 <li class="nav-item ms-3"><a class="nav-link active" aria-current="page" href="#">ABOUT</a></li>
+               <li class="nav-item ms-3"><a class="nav-link active" aria-current="page" href="#">CONTACT US</a></li>
+            </ul>
+            <div class="nav-icon">
+                <i class="fa fa-facebook icon-face"></i>
+                <i class="fa fa-instagram icon-insta"></i> 
+                  <i class="fa fa-twitter icon-twi"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- <nav>
+        <ul class="nav-bar">
+            <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">SWEETS</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">ABOUT</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>
+        </ul>
+    </nav> -->
+    <!-- ==========carousel===================== -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/images (3).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide label</h5>
+            <p>Some representative placeholder content for the first slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/images.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/images (2).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-          <a class="nav-link active" aria-current="page" href="./about/about.html">About</a>
-          <a class="nav-link active" aria-current="page" href="./sweets/sweets.html">Sweets</a>
-          <a class="nav-link active" aria-current="page" href="./gaillery/gallery.html">The bakery</a>
-          <a class="nav-link active" aria-current="page" href="./contact/contact.html">contant Us</a>
-
-        </div>
-      </div>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </nav>
-  <div class="header"></div>
+<!-- ==============card================== -->
 
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
+<div class="pop">Popular Cakes</div>
+<div class="card-body">
+<div class="card-col-1">
+  <div class="box">
+    <div class="box-card">
+      <img class="box-img" src="./img/choco-cake_1.webp" alt="">
+      <p class="box-title">Chocolate</p>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="./img/img1.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./img/img2.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="./img/img3.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <div class="carda">
-    <div class="pop">Popular Cakes</div>
-
-    <div class="les">
-
-      <div id="les">
-        <img class="cake" src="./img/choco-cake_1.webp" alt="">
-        <p class="click">Chocolate-Cake
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia vero quam! </p>
-        <h4 class="slidermrp"> ₹300 <del>Rs.349</del></h4>
-        </p>
-        <div class="box-botton">
-          <button class="click1"><a class="click2" href="">Order Now</a> </button>
-
-        </div>
-
-      </div>
-      <div id="les">
-        <img class="cake" src="./img/choco-cake_1.webp" alt="">
-        <p class="click">Chocolate-Cake
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia vero quam! </p>
-        <h4 class="slidermrp"> ₹300 <del>Rs.349</del></h4>
-        </p>
-        <div class="box-botton">
-          <button class="click1"><a class="click2" href="">Order Now</a> </button>
-
-        </div>
-      </div>
-    </div>
-
-    <div class="les">
-
-      <div id="les">
-        <img class="cake" src="./img/designer-cake_1.webp" alt="">
-        <p class="click">Chocolate-Cake
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia vero quam! </p>
-        <h4 class="slidermrp"> ₹300 <del>Rs.349</del></h4>
-        </p>
-        <div class="box-botton">
-          <button class="click1"><a class="click2" href="">Order Now</a> </button>
-
-        </div>
-      </div>
-      <div id="les">
-        <img class="cake" src="./img/designer-cake_1.webp" alt="">
-        <p class="click">Chocolate-Cake
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia vero quam! </p>
-        <h4 class="slidermrp"> ₹300 <del>Rs.349</del></h4>
-        </p>
-        <div class="box-botton">
-          <button class="click1"><a class="click2" href="">Order Now</a> </button>
-
-        </div>
-      </div>
+    <div class="box-card">
+      <img class="box-img" src="./img/butterscotch-cake_1.webp" alt="">
+      <p class="box-title">Chocolate</p>
     </div>
   </div>
-
-  <div class="carda1">
-
-    <div class="les">
-
-      <div id="les">
-        <img class="cake" src="./img/butterscotch-cake_1.webp" alt="">
-        <p class="click">Chocolate-Cake
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia vero quam! </p>
-        <h4 class="slidermrp"> ₹300 <del>Rs.349</del></h4>
-        </p>
-        <div class="box-botton">
-          <button class="click1"><a class="click2" href="">Order Now</a> </button>
-
-        </div>
-      </div>
-      <div id="les">
-        <img class="cake" src="./img/butterscotch-cake_1.webp" alt="">
-        <p class="click">Chocolate-Cake
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia vero quam! </p>
-        <h4 class="slidermrp"> ₹300 <del>Rs.349</del></h4>
-        </p>
-        <div class="box-botton">
-          <button class="click1"><a class="click2" href="">Order Now</a> </button>
-
-        </div>
-      </div>
+  <div class="box-1">
+    <div class="box-card">
+      <img class="box-img" src="./img/choco-cake_1.webp" alt="">
+      <p class="box-title">Chocolate</p>
     </div>
-
-    <div class="les">
-
-      <div id="les">
-        <img class="cake" src="./img/butterscotch-cake_1.webp" alt="">
-        <p class="click">Coffee-Cake
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia vero quam! </p>
-        <h4 class="slidermrp"> ₹300 <del>Rs.349</del></h4>
-        </p>
-         <div class="box-botton">
-           <button class="click1"><a class="click2" href="">Order Now</a> </button>
-
-         </div>
-      </div>
-      <div id="les">
-        <img class="cake" src="./img/butterscotch-cake_1.webp" alt="">
-        <p class="click">Butterscotch-Cake
-          <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quia vero quam! </p>
-        <h4 class="slidermrp"> ₹300 <del>Rs.349</del></h4>
-        </p>
-        <div class="box-botton">
-          <button class="click1"><a class="click2" href="">Order Now</a> </button>
-
-        </div>
-      </div>
+    <div class="box-card">
+      <img class="box-img" src="./img/butterscotch-cake_1.webp" alt="">
+      <p class="box-title">Chocolate</p>
     </div>
   </div>
-
-
-  <footer class="footer">
-
-    <div class="footer1">
-
-      <h1>Know Us</h1>
-      <p>Our Story <br>
-        Contact Us <br>
-        Locate Us <br>
-        Blog</p>
-
+</div>
+<!-- ========== -->
+<div class="card-col-2">
+  <div class="box">
+    <div class="box-card">
+      <img class="box-img" src="./img/butterscotch-cake_1.webp" alt="">
+      <p class="box-title">Chocolate</p>
     </div>
-
-    <div class="footer2">
-      <h1>Need Help</h1>
-      <p>FAQ <br>
-        Cancellation and Refund <br>
-        Privacy Policy <br>
-        Terms and Conditions <br>
-        Sitemap</p>
+    <div class="box-card">
+      <img class="box-img" src="./img/choco-cake_1.webp" alt="">
+      <p class="box-title">Chocolate</p>
     </div>
-
-    <div class="footer3">
-      <h1>More Info</h1>
-      <p>Corporate Cakes <br>
-        Coupons & Offers <br>
-        Franchise <br>
-        Do</p>
+  </div>
+  <div class="box-1">
+    <div class="box-card">
+      <img class="box-img" src="./img/butterscotch-cake_1.webp" alt="">
+      <p class="box-title">Chocolate</p>
     </div>
-
-    <div class="footer4">
-      <h1>Find Us</h1>
-      <p>Adrees : Bansdih Bazar <br>841311</p>
+    <div class="box-card">
+      <img class="box-img" src="./img/choco-cake_1.webp" alt="">
+      <p class="box-title">Chocolate</p>
     </div>
-    <div class="footer5">
-      <i class="fa fa-phone"></i>
-      <p id="footer51">+91-6201521438</p>
-    </div>
-    <div class="footer6">
-      <i class="fa fa-envelope"></i>
-      <p id="footer61">Email: rahul.suvaidyam@gmail.com</p>
-    </div>
+  </div>
+</div>
+<!-- ================= -->
+<div class="middle-box">
+   <div class="half-box">
+      <img class="half-img" src="./img/images (2).jpg" alt="">
+   </div>
+   <div class="half-box-1">
+      <img class="half-img" src="./img/images (3).jpg" alt="">
+   </div>
+</div>
+</div>
 
 
 
-  </footer>
-
-
-
+    <!-- ================bootsrap js========= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
-
 </html>
