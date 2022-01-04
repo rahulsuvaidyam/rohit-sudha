@@ -136,8 +136,35 @@
 .half-img{
     width: 100%;
 }
-
-
+/* ============contact form================= */
+.contact{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.contact-img{
+    width: 50%;
+}
+.contact-form{
+    width: 50%; 
+}
+.img{
+    width: 85%;
+    height: auto;
+    margin-left: 3%;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.form{
+    width: 80%;
+    height: auto;
+}
+.name{
+    display: flex;
+}
+.contact-logo{
+    width: 100%;
+}
 /* ===========Mobile View=========================== */
 
 @media only screen and (max-width:990px){
@@ -176,6 +203,23 @@
      .half-box-1{
         width: 100%; 
       
+     }
+     /* ==========form contact */
+     .contact{
+         display: block !important;
+     }
+     .contact-img{
+         width: 100%;
+     }
+     .img{
+         width: 96%;
+         margin-left: 2%;
+     }
+     .contact-form{
+         width: 100%;
+     }
+     .form{
+         width: 100%;
      }
 }
 
@@ -216,8 +260,12 @@
         height: 12rem;
     }
 }
-
-
+/* ============================= */
+@media only screen and (max-width:500px){
+  .name{
+      display: block !important;
+  }
+}
 
 
 
