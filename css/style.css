@@ -18,6 +18,7 @@
 }
 .nav-up-icon{
     margin-left: 0.5%;
+    color: white;
 }
 /* ==========navbar============= */
 .nav-img{
@@ -88,10 +89,18 @@
     margin-left: -8%;
 }
 
+.box-card-pesty{
+    width: 38%;
+    height: auto;
+    border: 3px solid whitesmoke;
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 5px -1px 2px 2px gainsboro;
+}
 .box-card{
     width: 38%;
     height: auto;
-    border: 2px solid chocolate;
+    border: 3px solid chocolate;
     margin: 2%;
     border-radius: 10px;
     box-shadow: 5px -1px 2px 2px gainsboro;
@@ -251,6 +260,9 @@
         margin-left: 0%;
         width: 100%;
     }
+    .box-card-pesty{
+        width: 46%;
+    }
     .box-card{
         width: 48%;
     }
@@ -268,8 +280,13 @@
         display: block;
        
     }
+    .box-card-pesty{
+        width: 96%;
+        margin-top: 6%;
+    }
     .box-card{
         width: 96%;
+        margin-top: 6%;
     }
     .w-100{
         height: 12rem;
@@ -282,64 +299,3 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ============== */
-/* nav{
-    width: 100%;
-    height: 5rem;
-    background-color: rgb(182, 52, 117);
-}
-.nav-bar{
-    display: inline-flex;
-    line-height: 3.5rem;
-    margin-left: 18%;
-}
-.nav-link{
-    color: white !important;
-} */
