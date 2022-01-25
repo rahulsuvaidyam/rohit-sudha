@@ -70,7 +70,7 @@
 }
 .card-col-1{
     display: flex;
-    margin-left: 10%;
+    margin-left: 12%;
 }
 .pop{
     text-align: center;
@@ -80,14 +80,16 @@
 }
 .box{
     display: flex;
+    width: 50%;
 }
 .box-1{
     display: flex;
-    margin-left: -12.5%;
+    width: 50%;
+    margin-left: -8%;
 }
 
 .box-card{
-    width: 35%;
+    width: 38%;
     height: auto;
     border: 2px solid chocolate;
     margin: 2%;
@@ -109,7 +111,7 @@
 /* === */
 .card-col-2{
     display: flex;
-    margin-left: 10%;
+    margin-left: 12%;
     
 }
 /* ============= */
@@ -164,6 +166,15 @@
 }
 .contact-logo{
     width: 100%;
+}
+.submit-form{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1.5rem;
+    background-color: rgb(236, 29, 14);
+    color: white;
+    border-radius: 5px;
+    border: none;
 }
 /* ===========Mobile View=========================== */
 
@@ -233,8 +244,12 @@
         display: block;
         margin-left: 0%;
     }
+    .box{
+        width: 100%;
+    }
     .box-1{
         margin-left: 0%;
+        width: 100%;
     }
     .box-card{
         width: 48%;
