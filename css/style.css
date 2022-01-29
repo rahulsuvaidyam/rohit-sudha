@@ -5,21 +5,6 @@
     text-decoration: none;
     font-family: sans-serif;
 }
-.nav-header{
-    width: 100%;
-    height: 2rem;
-    background: url(../img/nav.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-}
-.copyright{
-    color: white;
-}
-.nav-up-icon{
-    margin-left: 0.5%;
-    color: white;
-}
 /* ==========navbar============= */
 .nav-img{
     width: 15%;
@@ -112,10 +97,15 @@
     border-radius: 3px;
 }
 .box-title{
-    background-color: rgb(210, 30, 30);
-    text-align: center;
+    background-color: whitesmoke;
+}
+/* =========== */
+.pesty-mrp{
     font-size: 1.5rem;
-    color: white;
+}
+del{
+    text-decoration: line-through;
+    opacity: 0.5;
 }
 /* === */
 .card-col-2{
@@ -184,6 +174,23 @@
     color: white;
     border-radius: 5px;
     border: none;
+}
+
+/* end-footer=========== */
+.end-footer{
+    width: 100%;
+    height: 2rem;
+    background: url(../img/nav.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.copyright{
+    color: white;
+}
+.nav-up-icon{
+    margin-left: 0.5%;
+    color: white;
 }
 /* ===========Mobile View=========================== */
 
