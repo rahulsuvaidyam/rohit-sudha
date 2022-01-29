@@ -45,6 +45,9 @@
     border: 1px solid rgb(37, 37, 110);
     cursor: pointer;
 }
+.gap{
+    height: 5rem;
+}
 /* ===============carousel=============== */
 .w-100{
     height: 35rem;
